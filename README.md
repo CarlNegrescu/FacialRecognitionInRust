@@ -1,4 +1,4 @@
-# FacialRecognitionInRust#
+# FacialRecognitionInRust
 
 A real-time facial recognition application built with Rust to learn the language and explore computer vision.
 
@@ -66,6 +66,7 @@ This project is a Cargo workspace containing multiple crates:
 * [ ] Implement a facial **embedding** model to create unique identifiers for detected faces.
 * [ ] Add a simple database or file system to store and manage known faces.
 * [ ] Draw bounding boxes and names over faces in the live video feed.
+* [ ] Integrate with an embedded controller to perform a physical action (e.g., activating a light, unlocking a door) upon successful facial recognition.
 
 ---
 
