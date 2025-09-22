@@ -1,0 +1,8 @@
+[workspace]
+members = [ 
+    "camera_capture",
+    "facial_detection_library", "main_app"
+]
+
+[workspace.dependencies]
+image = "0.25" 

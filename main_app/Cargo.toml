@@ -1,0 +1,9 @@
+[package]
+name = "main_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+camera_capture = {path = "../camera_capture"}
+minifb = "0.25.0" # cross-platfrom library to create a window
+image = { workspace = true }

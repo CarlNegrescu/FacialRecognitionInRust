@@ -1,0 +1,9 @@
+[package]
+name = "camera_capture"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+image = { workspace = true }
+nokhwa = { version = "0.10.9", features = ["input-msmf"] }
+thiserror = "2.0.16"
